@@ -65,17 +65,13 @@ strong {
 	font-weight: bold;
 }
 
-a:link {
+a:link, a:visited {
 	color: #7baeba; 
 	text-decoration:none;
 }
 a[href]:hover {
 	color: #497ca7;
 	text-decoration: none;
-}
-a:visited {
-	color:#3c5b75; 
-	text-decoration:none;
 }
 
 a img {
@@ -273,6 +269,15 @@ p.footertext {
 
 .pb {
 	padding-bottom: 1em;
+}
+
+/* specific styles for specific things */
+
+.purchase-poster {
+	font-size: .875em;
+	line-height: 1.5em;
+	text-align: center;
+	margin: .5em 0 4em;
 }
 
 /** Breakpoints **/
