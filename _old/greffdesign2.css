@@ -1,0 +1,171 @@
+/** universal stuff **/
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	font-family: helvetica, sans-serif;
+	color: #444;
+	margin: 0;
+}
+
+a:link {
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #444;
+	text-decoration: none;	
+}
+
+
+
+
+/** header **/
+.name {
+	font-weight: 100;
+	max-width: 175px;
+	font-size: .875em;
+	float: left;
+	color: #524A48;
+}
+.name strong{
+ 	font-size: .875em;
+ 	padding-right: .25em;
+ }
+
+.navlinks {
+	font-size: .825em;
+	font-weight: 100;
+	text-align: right;
+}
+
+.navlinks li {
+	float: right;
+}
+
+.navlinks a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+.centerheader {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	margin-bottom: 2em;
+	margin-top: 1.5em;
+	/** background-color: greenyellow; **/
+}
+
+.centering {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1034px;
+	/** background-color: tomato; **/
+}
+
+.logoline {
+	margin-top: .75em;
+}
+
+
+
+
+/** main column **/
+
+.col1 {
+	width: 88%;
+	height: 800px;
+	/** background-color: paleturquoise; **/
+	float: left;
+	padding: 0;
+}
+
+.col1 img {
+	margin-right: .5em;
+	margin-bottom: .5em;
+}
+
+
+
+
+/** sidecolumn **/
+
+.col2 {
+	width: 10%;
+	height: 600px;
+	/** background-color: violet; **/
+	float: right;
+	padding-left: 1em;
+	padding-top: 4.875em;
+}
+
+.sidenavtext {
+	font-weight: 100;
+	font-size: .825em;
+	text-align: left;
+}
+
+.sidenavtext ul {
+	padding: 0;
+}
+
+.sidenavtext li {
+	padding-top: .5em;
+}
+
+
+
+/** footer **/
+
+#sectionfooter {
+	clear: left;
+	padding: 3em 9.375em 3em 0;
+	
+}
+
+p.footertext {
+	font-size: .75em;
+	text-align: center;
+	font-weight: 100;
+	color: #666;
+	padding: 1em 0;
+}
+
+.footerline {
+	clear: left;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #eee;
+}
+
+/** Breakpoints 
+
+@media only screen and (min-width: 1220px) {
+
+.centering {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1060px;
+	background-color: tomato;
+}
+.col1 {
+	width: 56.5em;
+	height: 800px;
+	background-color: paleturquoise;
+	float: left;
+	padding: 0;
+}
+} **/
