@@ -148,13 +148,13 @@ a img {
 .col1 img {
 	margin-right: 1.125em;
 	margin-bottom: 1.125em;
-	border-style: solid solid solid solid;
+	border-style: solid;
 	border-width: thin;
 	border-color: #e6e6e6;
 }
 
 #border {
-	border-style: solid solid solid solid;
+	border-style: solid;
 	border-width: thin;
 	border-color: #dedede;
 }
