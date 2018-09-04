@@ -200,6 +200,13 @@ a img {
 	text-decoration:none;
 }
 
+.tabLinks {
+	text-align: center;
+	margin: 40px 0;
+	font-size: .825em;
+	font-weight: 100;
+} 
+
 /** one column pages **/
 .col3 {
 	width: 34.375em;
@@ -219,6 +226,10 @@ a img {
 #mobilepics {
 	width: 275px;
 	float: left;
+}
+
+#mobilepics h5 {
+	text-align: center;
 }
 
 #mobilepics2 {
