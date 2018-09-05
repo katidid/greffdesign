@@ -219,6 +219,12 @@ a img {
 	height: auto;
 }
 
+.col3 video {
+	width: 100%;
+	
+	border: solid 1px lightgrey;
+}
+
 .collage {
 	margin-top: 2.5em;
 }
