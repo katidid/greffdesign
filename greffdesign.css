@@ -234,7 +234,7 @@ a img {
 	float: left;
 }
 
-#mobilepics h5 {
+#mobilepics h5, #mobilepics2 h5 {
 	text-align: center;
 }
 
