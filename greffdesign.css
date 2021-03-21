@@ -43,9 +43,17 @@ h1 {
 	line-height: 1.25em;
 }
 
+h2 {
+	font-weight: normal;
+	font-size: 1.3125em;
+	margin-top: 2.375em;
+	margin-bottom: 0;
+}
+
 h4 {
 	font-size: .75em;
 	font-weight: normal;
+	line-height: 1.5em;
 	color: #999;
 	margin-top: 0;
 	margin-bottom: 1.5em;
@@ -56,7 +64,7 @@ h5 {
 		font-size: .75em;
 	font-weight: normal;
 	color: #999;
-	margin-top: 0;
+	margin-top: .25em;
 	margin-bottom: 1.5em;
 	text-align: left;
 }
@@ -221,12 +229,63 @@ a img {
 
 .col3 video {
 	width: 100%;
-	
 	border: solid 1px lightgrey;
+}
+
+.imgborder {
+	border-style: solid;
+	border-width: thin;
+	border-color: #e6e6e6;
 }
 
 .collage {
 	margin-top: 2.5em;
+}
+
+.seemore {
+	clear: left;
+	padding: 200px 0 0 0;
+}
+
+.seemore h2 {
+	margin: 30px 0 20px;
+	text-align: center;
+}
+
+.seemore a img {
+	float: left;
+	margin-bottom: 1.125em;
+	border-style: solid;
+	border-width: thin;
+	border-color: #e6e6e6;
+	width: 266px;
+}
+
+.seemore .seemore-1st img {
+	margin-right: .875em;
+}
+
+.seemore-link {
+	font-weight: 100;
+	font-size: 1em;
+	text-align: center;
+	padding-top: 5px;
+	clear: left;
+}
+
+.seemore-link a:link {
+	color: #393939;
+	text-decoration:none;
+}
+
+.seemore-link a[href]:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.seemore-link a:visited {
+	color: #393939; 
+	text-decoration:none;
 }
 
 #mobilepics {
