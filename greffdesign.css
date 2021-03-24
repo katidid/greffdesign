@@ -86,6 +86,14 @@ a img {
 	outline: none;
 }
 
+video {
+	margin: 16px 0 0 0;
+}
+
+.centeralign {
+	text-align: center;
+}
+
 /** header **/
 .name {
 	font-weight: 100;
@@ -249,7 +257,6 @@ a img {
 
 .seemore h2 {
 	margin: 30px 0 20px;
-	text-align: center;
 }
 
 .seemore a img {
