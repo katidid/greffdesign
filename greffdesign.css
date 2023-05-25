@@ -1,8 +1,12 @@
+/* notes. Ems are being used for adjustable text size and for widths to create an elastic layout */
+
+
 /** universal stuff **/
 
 body {
 	margin: 0;
 	font-family: helvetica, sans-serif;
+	font-size: 100%;
 	color: #393939;
 }
 
@@ -17,15 +21,15 @@ ul {
 
 p {
 	font-family: Georgia, serif;
-	font-size: 1em;
-	line-height: 1.625em;
-	margin: 1em, 0, 0, 0;
+	font-size: 1em; /* 16px */
+	line-height: 1.625em; /* 26px */
+	margin: 16px, 0, 0, 0;
 	font-weight: 400;
 }
 
 li {
 	font-family: Georgia, serif;
-	font-size: 1em;
+	font-size: 1em; /* 16px */
 }
 
 pre {
@@ -36,36 +40,36 @@ pre {
 
 h1 {
 	font-weight: normal;
-	font-size: 1.75em;
-	margin-top: 1.5em;
+	font-size: 1.75em; /* 16px */
+	margin-top: 24px
 	margin-bottom: 0;
 	text-align: center;
-	line-height: 1.25em;
+	line-height: 1.25em; /* 20px */
 }
 
 h2 {
 	font-weight: normal;
-	font-size: 1.3125em;
-	margin-top: 2.375em;
+	font-size: 1.3125em; /* 21px */
+	margin-top: 38px;
 	margin-bottom: 0;
 }
 
 h4 {
-	font-size: .75em;
+	font-size: .75em; /* 12px */
 	font-weight: normal;
-	line-height: 1.5em;
+	line-height: 1.5em; /* 24px */
 	color: #999;
 	margin-top: 0;
-	margin-bottom: 1.5em;
+	margin-bottom: 24px; 
 	text-align: center;
 }
 
 h5 {
-		font-size: .75em;
+	font-size: .75em; /* 12px */
 	font-weight: normal;
 	color: #999;
-	margin-top: .25em;
-	margin-bottom: 1.5em;
+	margin-top: 4px;
+	margin-bottom: 24px;
 	text-align: left;
 }
 
@@ -98,18 +102,16 @@ video {
 .name {
 	font-weight: 100;
 	max-width: 13.5em;
-	font-size: .875em;
 	float: left;
 	color: #524A48;
 	margin-top: 0;
 }
 .name strong{
- 	font-size: .875em;
- 	padding-right: .25em;
+ 	font-size: .875em; /* 14px */
+ 	padding-right: 4px;
  }
 
 .navlinks {
-	font-size: .825em;
 	font-weight: 100;
 	text-align: right;
 	margin-top: 0;
@@ -135,17 +137,13 @@ video {
 }
 
 .centerheader {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 25em;
-	margin-bottom: 2em;
-	margin-top: 1.5em;
+	max-width: 25em; /* 400px */
+	margin: 24px auto 32px auto;
 }
 
 .centering {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 47.1875em;
+	margin: 0 auto;
+	max-width: 47.1875em; /* 755px */
 }
 
 #logoline {
@@ -157,18 +155,18 @@ video {
 /** main column **/
 
 .col1 {
-	width: 38.8125em;
+	width: 38.8125em; /* 621px */
 	float: left;
 	padding: 0;
 }
 
 .col1 img {
-	margin-right: 1.5em;
-	margin-bottom: 1.5em;
+	margin-right: 24px;
+	margin-bottom: 24px;
 	border-style: solid;
 	border-width: thin;
 	border-color: #e6e6e6;
-	width: 390px;
+	width: 24.375em; /* 390px */
 }
 
 #border {
@@ -179,16 +177,15 @@ video {
 
 /** sidecolumn **/
 .col2 {
-	width: 8.375em;
-	height: 37.5em;
+	width: 8.375em; /* 134px */
+	height: 600px;
 	float: left;
 	padding-left: 0;
-	padding-top: 5em;
+	padding-top: 80px;
 }
 
 .sidenavtext {
 	font-weight: 100;
-	font-size: .825em;
 	text-align: left;
 }
 
@@ -198,7 +195,7 @@ video {
 
 .sidenavtext li {
 	font-family: helvetica, sans-serif;
-	padding-top: .5em;
+	padding-top: 8px;
 }
 
 .sidenavtext a:link {
@@ -219,15 +216,14 @@ video {
 .tabLinks {
 	text-align: center;
 	margin: 40px 0;
-	font-size: .825em;
+	font-size: .825em; /* 13.2px */
 	font-weight: 100;
 } 
 
 /** one column pages **/
 .col3 {
-	width: 34.375em;
-	margin-left: auto;
-	margin-right: auto;
+	width: 34.375em; /* 550px */
+	margin:0 auto;
 }
 
 .col3 img {
@@ -247,7 +243,7 @@ video {
 }
 
 .collage {
-	margin-top: 2.5em;
+	margin-top: 40px;
 }
 
 .seemore {
@@ -261,20 +257,20 @@ video {
 
 .seemore a img {
 	float: left;
-	margin-bottom: 1.125em;
+	margin-bottom: 18px;
 	border-style: solid;
 	border-width: thin;
 	border-color: #e6e6e6;
-	width: 266px;
+	width: 16.625em; /* 266px */
 }
 
 .seemore .seemore-1st img {
-	margin-right: .875em;
+	margin-right: 14px;
 }
 
 .seemore-link {
 	font-weight: 100;
-	font-size: 1em;
+	font-size: 1em; /* 16px */
 	text-align: center;
 	padding-top: 5px;
 	clear: left;
@@ -282,7 +278,7 @@ video {
 
 .seemore-link a:link {
 	color: #393939;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .seemore-link a[href]:hover {
@@ -292,11 +288,11 @@ video {
 
 .seemore-link a:visited {
 	color: #393939; 
-	text-decoration:none;
+	text-decoration: none;
 }
 
 #mobilepics {
-	width: 275px;
+	width: 17.1875em; /* 275px */
 	float: left;
 }
 
@@ -305,30 +301,29 @@ video {
 }
 
 #mobilepics2 {
-	width: 275px;
+	width: 17.1875em; /* 275px */
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 }
 
 /** footer **/
 #onecolfooter {
 	clear: left;
-	padding: 3em 0em 3em 0;
+	padding: 48px 0;
 }
 
 #twocolfooter {
 	clear: left;
-	padding: 3em 9.375em 3em 0;
+	padding: 48px 150px 48px 0;
 }
 
 p.footertext {
 	font-family: helvetica, sans-serif;
-	font-size: .75em;
+	font-size: .75em; /* 12px */
 	text-align: center;
 	font-weight: 100;
 	color: #666;
-	padding: 1em 0;
+	padding: 16px 0;
 }
 
 .footertext a:link {
@@ -354,16 +349,16 @@ p.footertext {
 }
 
 .pb {
-	padding-bottom: 1em;
+	padding-bottom: 16px;
 }
 
 /* specific styles for specific things */
 
 .purchase-poster {
-	font-size: .875em;
-	line-height: 1.5em;
+	font-size: .875em; /* 14px */
+	line-height: 1.5em; /* 24px */
 	text-align: center;
-	margin: .5em 0 4em;
+	margin: 8px 0 48px;
 }
 
 /** Breakpoints **/
@@ -372,28 +367,27 @@ p.footertext {
 	.centering {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 90em;
+		max-width: 90em; /* 1440px */
 	}
 
 	.col1 {
-		width: 78.57em;
+		width: 78.5625em; /* 1257px */
 		float: left;
 		padding: 0;
 	}
 
 	.col2 {
-		width: 7.9375em;
+		width: 7.9375em; /* 127px */
 }
 }
 
 @media only screen and (max-width: 755px) {
 
 	.col1 {
-		max-width: 38.8125em;
+		max-width: 38.8125em; /* 621px */
 		float: none;
-		padding-left: .5em;
-		margin-left: auto;
-		margin-right: auto;
+		padding-left: 8px;
+		margin: 0 auto;
 	}
 
 	#thumb {
@@ -402,26 +396,24 @@ p.footertext {
 	}
 
 	.logoline {
-		margin-top: .75em;
+		margin-top: 12px;
 		width: 100%;
 	}
 
 	.col2 {
 		width: auto;
 		height: auto;
-		padding-top: .5em;
-		padding-bottom: 1em;
-		margin-left: auto;
-		margin-right: auto; 
+		padding: 8px 0 16px 0;
+		margin: 0 auto;
 		float: none;
 		clear: left;
 	}
 
 	.sidenavtext {
 		font-weight: 100;
-		font-size: .825em;
-		text-align: center;
-		line-height: 2em;
+		font-size: .825em; /* 14px */
+		text-align: center; 
+		line-height: 2em; /* 32px */
 	}
 
 	.sidenavtext ul {
@@ -429,18 +421,18 @@ p.footertext {
 	}
 
 	.sidenavtext li {
-		padding-top: .5em;
+		padding-top: 8px;
 	}
 
 	#sectionfooter {
 		clear: left;
-		padding: 0 0 3em 0;	
+		padding: 0 0 36px 0;	
 	}
 
 	#twocolfooter {
 		clear: left;
-		padding: 1em 0 3em 0;
-		width: 38.75em;
+		padding: 16px 0 36px 0;
+		width: 38.75em; /* 620px */
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -449,9 +441,8 @@ p.footertext {
 @media only screen and (max-width: 620px) {
 	.col1 {
 		padding-left: 0;
-		max-width: 25em;
-		margin-left: auto;
-		margin-right: auto;
+		max-width: 25em; /* 400px */
+		margin: 0 auto;
 	}
 
 	.col1 img {
@@ -461,22 +452,21 @@ p.footertext {
 
 	.col3 {
 		padding-left: 0;
-		max-width: 25em;
-		margin-left: auto;
-		margin-right: auto;
+		max-width: 25em; /* 400px */
+		margin: 0 auto;
 	}
 
 	/** header **/
 	.name {
-		padding-left: .75em;
+		padding-left: 12px;
 	}
 
 	.navlinks {
-		padding-right: .75em;
+		padding-right: 12px;
 	}
 
 	#twocolfooter {
-		max-width: 25em;
+		max-width: 25em; /* 400px */
 	}
 
 	#mobilepics {
@@ -491,15 +481,13 @@ p.footertext {
 	.col1 {
 		padding-left: 0;
 		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 auto;
 	}
 
 	.col3 {
 		padding-left: 0;
 		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 auto;
 	}
 
 	/** header **/
