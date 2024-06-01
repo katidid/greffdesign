@@ -251,6 +251,11 @@ video {
 	padding: 200px 0 0 0;
 }
 
+.justseemore {
+	clear: left;
+	padding: 50px 0 0 0;
+}
+
 .seemore h2 {
 	margin: 30px 0 20px;
 }
@@ -261,7 +266,7 @@ video {
 	border-style: solid;
 	border-width: thin;
 	border-color: #e6e6e6;
-	width: 48%;
+	width: 47.9%;
 }
 
 .seemore .seemore-1st img {
@@ -292,7 +297,7 @@ video {
 }
 
 #mobilepics {
-	width: 17.1875em; /* 275px */
+	width: 50%;
 	float: left;
 }
 
@@ -301,7 +306,7 @@ video {
 }
 
 #mobilepics2 {
-	width: 17.1875em; /* 275px */
+	width: 50%;
 	display: block;
 	margin: 0 auto;
 }
@@ -359,6 +364,11 @@ p.footertext {
 	line-height: 1.5em; /* 24px */
 	text-align: center;
 	margin: 8px 0 48px;
+}
+
+.infoimage {
+	width: 80%;
+	margin: 0 auto;
 }
 
 /** Breakpoints **/
@@ -485,14 +495,6 @@ p.footertext {
 		font-size: .8125em; /* 13px */
 	}
 
-	.centerheader {
-		margin: 32px auto 40px;
-	}
-
-	.name {
-		font-size: 1em; /* 16px */
-	}
-
 	.col1 {
 		padding-left: 0;
 		max-width: 25em; /* 400px */
@@ -510,8 +512,16 @@ p.footertext {
 		margin: 0 auto;
 	}
 
+	.infoimage {
+		width: 100%;
+	}
+
 	/** header **/
+	.centerheader {
+		margin: 32px auto 40px;
+	}
 	.name {
+		font-size: 1em; /* 16px */
 		padding-left: 12px;
 	}
 
@@ -523,10 +533,20 @@ p.footertext {
 		max-width: 25em; /* 400px */
 	}
 
-	#mobilepics {
+	#mobilepics, #mobilepics2 {
 		display: block;
 		margin: 0 auto;
 		float: none;
+		width: 75%;
+	}
+
+/* See more section */
+	.seemore {
+		padding: 50px 0 0 0;
+	}
+
+	.seemore a img {
+		width: 47.7%;
 	}
 }
 
