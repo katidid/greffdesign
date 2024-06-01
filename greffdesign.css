@@ -21,9 +21,9 @@ ul {
 
 p {
 	font-family: Georgia, serif;
-	font-size: 1.25em; /* 20px */
+	font-size: 1.3125em; /* 21px */
 	line-height: 1.625em; /* 26px */
-	margin: 16px, 0, 0, 0;
+	margin: 0 0 16px 0;
 	font-weight: 400;
 }
 
@@ -40,8 +40,8 @@ pre {
 
 h1 {
 	font-weight: normal;
-	font-size: 1.75em; /* 16px */
-	margin-top: 24px
+	font-size: 2.75em; /* 44px */
+	margin-top: 64px;
 	margin-bottom: 0;
 	text-align: center;
 	line-height: 1.25em; /* 20px */
@@ -49,23 +49,23 @@ h1 {
 
 h2 {
 	font-weight: normal;
-	font-size: 1.3125em; /* 21px */
-	margin-top: 38px;
-	margin-bottom: 0;
+	font-size: 1.75em; /* 24px */
+	margin-top: 40px;
+	margin-bottom: 8px;
 }
 
 h4 {
-	font-size: .75em; /* 12px */
+	font-size: .875em; /* 14px */
 	font-weight: normal;
 	line-height: 1.5em; /* 24px */
 	color: #999;
 	margin-top: 0;
-	margin-bottom: 24px; 
+	margin-bottom: 32px; 
 	text-align: center;
 }
 
 h5 {
-	font-size: .75em; /* 12px */
+	font-size: .875em; /* 14px */
 	font-weight: normal;
 	color: #999;
 	margin-top: 4px;
@@ -222,8 +222,8 @@ video {
 
 /** one column pages **/
 .col3 {
-	width: 34.375em; /* 550px */
-	margin:0 auto;
+	width: 75%;
+	margin:0 12.5%;
 }
 
 .col3 img {
@@ -261,11 +261,11 @@ video {
 	border-style: solid;
 	border-width: thin;
 	border-color: #e6e6e6;
-	width: 16.625em; /* 266px */
+	width: 48%;
 }
 
 .seemore .seemore-1st img {
-	margin-right: 14px;
+	margin-right: 3.2%;
 }
 
 .seemore-link {
@@ -355,7 +355,7 @@ p.footertext {
 /* specific styles for specific things */
 
 .purchase-poster {
-	font-size: .875em; /* 14px */
+	font-size: 1em; /* 16px */
 	line-height: 1.5em; /* 24px */
 	text-align: center;
 	margin: 8px 0 48px;
@@ -386,7 +386,16 @@ p.footertext {
 
 	.col2 {
 		width: 14%;
-}
+	}
+
+	.col3 {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	.seemore .seemore-1st img {
+		margin-right: 3.6%;
+	}
 }
 
 @media only screen and (max-width: 755px) {
@@ -447,6 +456,43 @@ p.footertext {
 }
 
 @media only screen and (max-width: 620px) {
+	
+	p {
+		font-size: 1em; /* 16px */
+		line-height: 1.5em; /* 24px */
+		margin: 0 0 8px 0;
+	}
+
+	li {
+		font-size: 1em; /* 16px */
+	}
+
+	h1 {
+		font-size: 1.75em; /* 28px */
+		margin-top: 0;
+	}
+
+	h2 {
+		font-size: 1.3125em; /* 21px */
+	}
+
+	h4 {
+		font-size: .8125em; /* 13px */
+		margin-bottom: 16px;
+	}
+
+	h5 {
+		font-size: .8125em; /* 13px */
+	}
+
+	.centerheader {
+		margin: 32px auto 40px;
+	}
+
+	.name {
+		font-size: 1em; /* 16px */
+	}
+
 	.col1 {
 		padding-left: 0;
 		max-width: 25em; /* 400px */
