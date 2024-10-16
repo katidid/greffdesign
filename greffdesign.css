@@ -3,9 +3,16 @@
 
 /** universal stuff **/
 
+/* .inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 body {
 	margin: 0;
-	font-family: helvetica, sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 100%;
 	color: #393939;
 }
@@ -20,7 +27,7 @@ ul {
 }
 
 p {
-	font-family: Georgia, serif;
+	font-family: 'Inter', serif;
 	font-size: 1.3125em; /* 21px */
 	line-height: 1.625em; /* 26px */
 	margin: 0 0 16px 0;
@@ -28,12 +35,12 @@ p {
 }
 
 li {
-	font-family: Georgia, serif;
+	font-family: 'Inter', serif;
 	font-size: 1.25em; /* 20px */
 }
 
 pre {
-	font-family: helvetica, sans-serif;
+	font-family: 'Inter', sans-serif;
 	color: #393939;
 	margin-top: 0;
 }
@@ -201,7 +208,7 @@ video {
 }
 
 .sidenavtext li {
-	font-family: helvetica, sans-serif;
+	font-family: 'Inter', sans-serif;
 	padding-top: 8px;
 }
 
@@ -330,7 +337,7 @@ video {
 }
 
 p.footertext {
-	font-family: helvetica, sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: .75em; /* 12px */
 	text-align: center;
 	font-weight: 100;
