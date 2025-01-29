@@ -23,7 +23,7 @@ p {
 	font-family: 'Inter', sans-serif;
 	font-size: 1.3125em; /* 21px */
 	line-height: 1.625em; /* 26px */
-	margin: 0 0 16px 0;
+	margin: 0 0 32px 0;
 	font-weight: 400;
 }
 
@@ -35,7 +35,7 @@ li {
 h1 {
 	font-weight: 400;
 	font-size: 2.75em; /* 44px */
-	margin-top: 64px;
+	margin-top: 88px;
 	margin-bottom: 0;
 	text-align: center;
 	line-height: 1.25em; /* 20px */
@@ -44,17 +44,17 @@ h1 {
 h2 {
 	font-weight: 600;
 	font-size: 1.75em; /* 24px */
-	margin-top: 40px;
+	margin-top: 48px;
 	margin-bottom: 8px;
 }
 
 h4 {
 	font-size: .875em; /* 14px */
 	font-weight: 400;
-	line-height: 1.5em; /* 24px */
+	line-height: 1.75em; /* 24px */
 	color: #999;
-	margin-top: 0;
-	margin-bottom: 32px; 
+	margin-top: 8px;
+	margin-bottom: 0; 
 	text-align: center;
 }
 
@@ -231,9 +231,18 @@ video {
 	margin:0 12.5%;
 }
 
+.featuredImage {
+	margin-bottom: 48px;
+}
+
+.sections {
+	margin: 128px 0;
+}
+
 .col3 img {
 	width: 100%;
 	height: auto;
+	margin-top: 16px;
 }
 
 .col3 video {
