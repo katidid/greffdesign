@@ -29,7 +29,7 @@ p {
 
 li {
 	font-family: 'Inter', sans-serif;
-	font-size: 1.25em; /* 20px */
+	font-size: 1.125em; /* 18px */
 }
 
 h1 {
@@ -95,7 +95,7 @@ video {
 /** header **/
 .name {
 	font-weight: 300;
-	font-size: 1.25em; /* 20px */
+	font-size: 1.125em; /* 18px */
 	max-width: 14em;
 	float: left;
 	color: #524A48;
@@ -136,7 +136,7 @@ video {
 }
 
 .centerheader {
-	max-width: 33em; /* 528px */
+	max-width: 31.25em; /* 500px */
 	margin: 40px auto 56px auto;
 }
 
