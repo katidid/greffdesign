@@ -367,10 +367,6 @@ p.footertext {
 	border-color: #eee;
 }
 
-.pb {
-	padding-bottom: 16px;
-}
-
 /* specific styles for specific things */
 
 .purchase-poster {
@@ -597,6 +593,10 @@ p.footertext {
 		padding-left: 0;
 		width: 90%;
 		margin: 0 auto;
+	}
+
+	.justseemore {
+		padding: 25px 0 0 0;
 	}
 
 	/** header **/
