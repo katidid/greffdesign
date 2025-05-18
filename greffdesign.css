@@ -35,7 +35,7 @@ li {
 h1 {
 	font-weight: 400;
 	font-size: 2.75em; /* 44px */
-	margin-top: 88px;
+	/*margin-top: 88px; */
 	margin-bottom: 0;
 	text-align: center;
 	line-height: 1.25em; /* 20px */
@@ -236,7 +236,7 @@ video {
 }
 
 .sections {
-	margin: 128px 0;
+	margin: 64px 0;
 }
 
 .col3 img {
@@ -452,6 +452,17 @@ p.footertext {
 		margin: 0 auto;
 		float: none;
 		clear: left;
+	}
+
+	.featuredImage {
+		margin-bottom: 24px;
+	}
+
+	.sections {
+		margin: 32px 0;
+		h2 {
+			margin-top: 0;
+		}
 	}
 
 	.sidenavtext {
